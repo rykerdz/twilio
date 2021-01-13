@@ -3,9 +3,9 @@ from rando_m import generate
 from twilio.rest import Client
 
 # Your Account SID from twilio.com/console
-account_sid = "AC1d5a9fc590d9b145bbf553af610afe10"
+account_sid = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # Your Auth Token from twilio.com/console
-auth_token  = "b77a36bf180befe4db195540bd2d775b"
+auth_token  = "your auth token"
 client = Client(account_sid, auth_token)
 def send_msg(auth_num, phone_num):
     message = client.messages.create(
